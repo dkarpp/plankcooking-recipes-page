@@ -1,0 +1,33 @@
+.recipe-title {
+  font-size: 17px;
+}
+
+#recipesContentBackground {
+  position: relative;
+  background-image: none;
+  background-repeat: repeat-y;
+  width: 100%;
+  top: 5px;
+}
+#recipesContentEnd {
+  min-height: 35px;
+  position: relative;
+  background-image: none;
+  background-repeat: repeat-y;
+  width: 100%;
+  top: 5px;
+}
+
+@media (min-width: 768px) {
+  #recipesContentEnd {
+    background-image: url("../public/imgs/PaperBackground_Bottom.png");
+    width: 624px;
+  }
+}
+
+@media (min-width: 768px) {
+  #recipesContentBackground {
+    background-image: url("../public/imgs/PaperBackground_Middle.png");
+    width: 624px;
+  }
+}
