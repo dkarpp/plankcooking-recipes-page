@@ -79,9 +79,7 @@ td {
   background-color: #fff;
   border: 1px solid white;
   border-radius: 2px;
-  margin: 2px 0px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 2px auto;
 }
 
 .navbar-nav {

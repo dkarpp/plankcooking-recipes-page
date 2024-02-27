@@ -24,6 +24,19 @@ function App() {
           <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start w-100 mt-5 mt-md-0">
             <Routes>
               <Route
+                path="/"
+                element={
+                  <>
+                    <SideMenu
+                      headerImage="../imgs/Recipe_MenuHeader.png"
+                      menuItems={recipesMenuItems.Recipes}
+                    />
+                    <Recipes />
+                  </>
+                }
+              />
+
+              <Route
                 path="/Recipes"
                 element={
                   <>
