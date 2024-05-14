@@ -1,3 +1,7 @@
+❓ This repository showcases a microservice architecture application, highlighting the implementation of a dynamic recipes page. 
+✅ I also demonstrate my ability to use various components and maintain code readability.
+
+---------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
